@@ -27,5 +27,9 @@
 Пример реализации похожей задачи без оценки, но с [интерфейсом](https://huggingface.co/spaces/IlyaGusev/saiga_13b_llamacpp_retrieval_qa) можно посмотреть по данной ссылке
 [Code](https://huggingface.co/spaces/IlyaGusev/saiga_13b_llamacpp_retrieval_qa/blob/main/app.py) 
 
-Примеры классов, которые могут потребоваться для выполнения данного задания описаны в [ноутбуке](https://colab.research.google.com/drive/1iTkBKddoC5-JFTkwuhDChX8giSRhkS6j).
+Общие рекомендации при использовании Google Colab:
+- подключаться к окружению с GPU (T4);
+- сохранять индекс на google disk, чтобы каждый раз его не пересоздавать;
+- использовать модели 7b (mistral и т.п.).
 
+Примеры классов, которые могут потребоваться для выполнения данного задания описаны в [ноутбуке](https://colab.research.google.com/drive/1iTkBKddoC5-JFTkwuhDChX8giSRhkS6j).
